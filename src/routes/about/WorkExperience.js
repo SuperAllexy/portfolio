@@ -3,7 +3,6 @@ import { experienceData } from "../../data/experienceData";
 const WorkExperience = () => {
   return (
     <section className="work-experience">
-      <h2 className="title-font pink-text h2-tag">Work Experience</h2>
       {experienceData.map((info, index) => (
         <section key={index}>
           <h3 className="h3-tag">{info.jobtitle}</h3>
